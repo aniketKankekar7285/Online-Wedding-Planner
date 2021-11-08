@@ -281,12 +281,24 @@ hr {
   box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.07);
 }
 
-.logo-wrapper {
+/*.logo-wrapper {
   background: url(../images/logo.png) no-repeat;
   height: 100px;
+  width: 50px;
   background-position: 15px;
 }
-.logo-wrapper a {
+
+*/
+
+
+.logo{
+  float: left;
+  height: 100px;
+  padding-left: 5px;
+  display: inline;
+}
+
+/*.logo-wrapper a {
   display: inline-block;
   overflow: hidden;
   padding-left: 130px;
@@ -295,7 +307,7 @@ hr {
   color: #ec523f;
   font-size: 32px;
   font-weight: 700;
-}
+}*/
 
 .main-menu ul li {
   display: inline-block;
@@ -385,6 +397,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 26px;
   display: block;
+
 }
 .flexslider .slider-caption a.slider-btn {
   color: white;
